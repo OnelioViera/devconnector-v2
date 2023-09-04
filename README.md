@@ -6,9 +6,9 @@
 
 3. Initialize the git repository `git init` in the project root directory.
 
-4. Change the entry point to server.js in package.json. Example: entry point: (index.js) server.js
+4. Change the entry point to `server.js` in `package.json`. Example: `entry point: (index.js) server.js`
 
-5. Create a README.md file.
+5. Create a `README.md` file.
 
 ### Install dependencies: 
 
