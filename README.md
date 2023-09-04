@@ -2,25 +2,25 @@ MERN SETUP
 
 1. Set up Mongodb
 
-2. Create a .gitignore file and add node_modules/ to the file .
+2. Create a .gitignore file and add node_modules/ to the file.
 
-3. Initialize git repository - git init - in project root directory.
+3. Initialize the git repository - git init - in the project root directory.
 
-4. Change entry point to server.js in package.json. Example: entry point: (index.js) server.js
+4. Change the entry point to server.js in package.json. Example: entry point: (index.js) server.js
 
 5. Create a README.md file.
 
-Install dependencies:
+###Install dependencies:###
 
 1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
-- express: main web frame for the backend.
+- express: Main web frame for the backend.
 - express-validator: Used for data validation. Will raise errors.
 - bcryptjs: Used for password encryption.
 - config: global variables.
 - gravatar: Profile avatars 
 - jsonwebtoken: Using JWT to pass a token for validation.
 - mongoose: Used to interact with database. 
-- request: Module to allow http requests to API's. Installed for the github repository profiles to be listed for the backend.
+- request: Module to allow HTTP requests to API's. Installed for the GitHub repository profiles to be listed for the backend.
 
 2. npm i -D nodemon concurrently
 
