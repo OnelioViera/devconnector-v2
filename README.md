@@ -1,6 +1,6 @@
 ## MERN Backend Setup
 
-1. Set up Mongodb
+1. Set up MongoDB Atlas
 
 2. Create a `.gitignore` file and add `node_modules/` to the file.
 
