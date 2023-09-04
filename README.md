@@ -38,9 +38,15 @@
 
     _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
 
+### Install nodemon and concurrently
+1. `npm i -D nodemon concurrently`
+- `nodemon` watches the server for any changes and automatically makes changes.
+- `concurrently` will allow the backend Express server and frontend React dev server at the same time.
+
 ### Modify package.json
 1. Re-palace `"test": \"Error: no test specified\" && exit 1` with:
 - `"start": "node server"`
+
 
 and add:
 - `"server": "nodemon server"`
