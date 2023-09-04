@@ -27,9 +27,9 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 --Modify package.json--
-1. Repalace "test" with
- 
+1. Repalace "test" with:
 - "start": "node server", 
+and add:
 - "server": "nodemon server"
 
 --Start Server--
