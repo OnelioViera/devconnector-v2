@@ -29,8 +29,8 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 --Modify package.json--
 1. Repalace "test" with
  
-"start": "node server", 
-"server": "nodemon server"
+- "start": "node server", 
+- "server": "nodemon server"
 
 --Start Server--
 1. npm run serever
