@@ -2,7 +2,7 @@ MERN SETUP
 
 1. Set up Mongodb
 
-2. Create a >gitignore file and add (node_modules/)
+2. Create a .gitignore file and add node_modules/ to the file .
 
 3. git init
 
