@@ -28,15 +28,15 @@
 
 - This is the content of the server.js file
 
-    _const express = require('express');_
+    _const express = require('express');_ // Bring in Express
 
-    _const app = express();_
+    _const app = express();_ // Entialize app varialble with express
 
-    _app.get('/', (req, res) => res.send('API Running'));_
+    _app.get('/', (req, res) => res.send('API Running'));_ // End point for testing
 
-    _const PORT = process.env.PORT || 5000;_
+    _const PORT = process.env.PORT || 5000;_ // App varialble listining on a PORT
 
-    _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
+    _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_ // PORT varialbe
 
 ### Install nodemon and concurrently
 1. `npm i -D nodemon concurrently`
