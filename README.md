@@ -10,7 +10,7 @@ MERN SETUP
 
 5. Create a README.md file.
 
-###Install dependencies:###
+### Install dependencies: ###
 
 1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
 - express: Main web frame for the backend.
