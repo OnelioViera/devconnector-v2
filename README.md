@@ -13,18 +13,18 @@
 ### Install dependencies: 
 
 1. `npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request`
-- express: Main web frame for the backend.
-- express-validator: Used for data validation. Will raise errors.
-- bcryptjs: Used for password encryption.
-- config: global variables.
-- gravatar: Profile avatars 
-- jsonwebtoken: Using JWT to pass a token for validation.
-- mongoose: Used to interact with database. 
-- request: Module to allow HTTP requests to API's. Installed for the GitHub repository profiles to be listed for the backend.
+- `express`: Main web frame for the backend.
+- `express-validator`: Used for data validation. Will raise errors.
+- `bcryptjs`: Used for password encryption.
+- `config`: global variables.
+- `gravatar`: Profile avatars 
+- `jsonwebtoken`: Using JWT to pass a token for validation.
+- `mongoose`: Used to interact with database. 
+- `request`: Module to allow HTTP requests to API's. Installed for the GitHub repository profiles to be listed for the backend.
 
-2. npm i -D nodemon concurrently
+2. `npm i -D nodemon concurrently`
 
-3. Make the following file, server.js, in the root directory.
+3. Make the following file, `server.js`, in the root directory.
 
 - This is the content of the server.js file
 
