@@ -1,4 +1,4 @@
-## MERN SETUP - Backend
+## MERN Backend Setup
 
 1. Set up Mongodb
 
