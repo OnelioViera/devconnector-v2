@@ -49,4 +49,4 @@ and add:
 - `npm run server`
 
 Then go to Postman and run a GET http://localhost:5000 and SEND.
-Should get API Running
+Should get the following: `API Running`
