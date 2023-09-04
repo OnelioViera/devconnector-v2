@@ -4,9 +4,13 @@ MERN SETUP
 
 2. Create a .gitignore file and add node_modules/ to the file .
 
-3. Run git init in project root directory.
+3. Initialize git repository - git init - in project root directory.
 
-Install dependences
+4. Change entry point to server.js in package.json. Example: entry point: (index.js) server.js
+
+5. Create a README.md file.
+
+Install dependencies:
 
 1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
 
@@ -27,14 +31,14 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 --Modify package.json--
-1. Repalace "test" with:
+1. Re-palace "test" with:
 - "start": "node server"
 
 and add:
 - "server": "nodemon server"
 
 --Start Server--
-1. npm run serever
+1. npm run server
 
 Then go to postman and run a GET http://localhost:5000 and SEND.
 Should get API Running
