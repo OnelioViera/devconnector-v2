@@ -4,7 +4,7 @@ MERN SETUP
 
 2. Create a .gitignore file and add node_modules/ to the file .
 
-3. git init
+3. Run git init in project root.
 
 Install dependences
 
