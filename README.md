@@ -13,6 +13,14 @@ MERN SETUP
 Install dependencies:
 
 1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+- express: main web frame for the backend.
+- express-validator: Used for data validation. Will raise errors.
+- bcryptjs: Used for password encryption.
+- config: global variables.
+- gravatar: Profile avatars 
+- jsonwebtoken: Using JWT to pass a token for validation.
+- mongoose: Used to interact with database. 
+- request: Module to allow http requests to API's. Installed for the github repository profiles to be listed for the backend.
 
 2. npm i -D nodemon concurrently
 
