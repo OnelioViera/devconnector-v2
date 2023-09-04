@@ -1,4 +1,4 @@
-## MERN SETUP ##
+## MERN SETUP 
 
 1. Set up Mongodb
 
@@ -10,7 +10,7 @@
 
 5. Create a README.md file.
 
-### Install dependencies: ###
+### Install dependencies: 
 
 1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
 - express: Main web frame for the backend.
@@ -28,15 +28,15 @@
 
 - This is the content of the server.js file
 
-* const express = require('express');
+    _const express = require('express');_
 
-const app = express();
+    _const app = express();_
 
-app.get('/', (req, res) => res.send('API Running'));
+    _app.get('/', (req, res) => res.send('API Running'));_
 
-const PORT = process.env.PORT || 5000;
+    _const PORT = process.env.PORT || 5000;_
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`)); *
+    _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
 
 --Modify package.json--
 1. Re-palace "test" with:
@@ -48,5 +48,5 @@ and add:
 --Start Server--
 1. npm run server
 
-Then go to postman and run a GET http://localhost:5000 and SEND.
+Then go to Postman and run a GET http://localhost:5000 and SEND.
 Should get API Running
