@@ -26,7 +26,7 @@
 
 3. Make the following file, server.js, in the root directory.
 
--This is the content of the server.js file
+- This is the content of the server.js file
 
 const express = require('express');
 
