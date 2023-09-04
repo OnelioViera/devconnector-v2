@@ -38,15 +38,15 @@
 
     _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
 
---Modify package.json--
-1. Re-palace "test" with:
-- "start": "node server"
+### Modify package.json
+1. Re-palace `test` with:
+- `"start": "node server"`
 
 and add:
-- "server": "nodemon server"
+- `"server": "nodemon server"`
 
---Start Server--
-1. npm run server
+### Start Server
+- `npm run server`
 
 Then go to Postman and run a GET http://localhost:5000 and SEND.
 Should get API Running
