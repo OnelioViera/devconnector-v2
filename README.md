@@ -1,4 +1,4 @@
-MERN SETUP
+## MERN SETUP ##
 
 1. Set up Mongodb
 
