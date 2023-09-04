@@ -4,7 +4,7 @@ MERN SETUP
 
 2. Create a .gitignore file and add node_modules/ to the file .
 
-3. Run git init in project root.
+3. Run git init in project root directory.
 
 Install dependences
 
@@ -12,7 +12,7 @@ Install dependences
 
 2. npm i -D nodemon concurrently
 
-3. Make the following file, server.js
+3. Make the following file, server.js in the root directory.
 
 --This is the content of the server.js file--
 
