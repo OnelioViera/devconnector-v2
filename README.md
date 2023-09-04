@@ -2,9 +2,9 @@
 
 1. Set up Mongodb
 
-2. Create a .gitignore file and add node_modules/ to the file.
+2. Create a `.gitignore` file and add `node_modules/` to the file.
 
-3. Initialize the git repository - git init - in the project root directory.
+3. Initialize the git repository `git init` in the project root directory.
 
 4. Change the entry point to server.js in package.json. Example: entry point: (index.js) server.js
 
