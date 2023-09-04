@@ -12,7 +12,7 @@
 
 ### Install dependencies: 
 
-1. npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+1. `npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request`
 - express: Main web frame for the backend.
 - express-validator: Used for data validation. Will raise errors.
 - bcryptjs: Used for password encryption.
