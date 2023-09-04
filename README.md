@@ -39,7 +39,7 @@
     _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
 
 ### Modify package.json
-1. Re-palace `test` with:
+1. Re-palace `"test": \"Error: no test specified\" && exit 1` with:
 - `"start": "node server"`
 
 and add:
