@@ -62,7 +62,7 @@
 
 
 and add:
-- `"server": "nodemon server"`
+- `"server": "nodemon server"` Used for development.
 
 ### Start Server
 - `npm run server`
