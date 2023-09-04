@@ -12,7 +12,7 @@ Install dependences
 
 2. npm i -D nodemon concurrently
 
-3. Make the following file, server.js in the root directory.
+3. Make the following file, server.js, in the root directory.
 
 --This is the content of the server.js file--
 
