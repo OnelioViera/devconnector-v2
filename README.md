@@ -70,4 +70,5 @@ You should get the following: `API Running`
 2. Create a `default.json` file in the config folder.
 - Copy the connection string from MongoDB Atlas and paste it into the `default.json` file in the config folder.
 - Change the password to the password you created for the database.
+- Change the database name to the name of the database you created.
 ![](http://https://new.express.adobe.com/published/urn:aaid:sc:US:c7df3eee-1d0c-4c71-9542-9bbeab40f7c8)
