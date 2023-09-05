@@ -73,4 +73,36 @@ You should get the following: `API Running`
 ![](https://i.imgur.com/gHrWhzX.jpg)
 
 - Change the password to the password you created for the database.
-- Change the database name to the name of the database you created.
+
+### Create a `db.js` file in the config folder.
+- Add the following code to the `db.js` file.
+
+    const mongoose = require('mongoose'); _// Bring in mongoose_
+
+    const config = require('config'); _// Bring in config_
+
+    const db = config.get('mongoURI'); _// Bring in mongoURI from default.json_
+
+    const connectDB = async () => { _// Create a variable to connect to the database_
+
+    try { _// Try to connect to the database_
+
+    await mongoose.connect(db, { _// Use mongoose to connect to the database_
+
+    useNewUrlParser: true, _// Use the new URL parser_
+
+    }); _// End of await mongoose.connect_
+
+    console.log('MongoDB Connected...'); _// If connected, console log_
+
+    } catch(err) { _// If not connected, console log the error_
+
+    console.error(err.message); _// Console log the error message_
+
+    process.exit(1); _// Exit process with failure_
+
+    } _// End of try catch_
+
+    } _// End of connectDB_
+
+    module.exports = connectDB; _// Export connectDB_
