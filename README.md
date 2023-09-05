@@ -69,7 +69,8 @@ You should get the following: `API Running`
 1. Create a `config` folder in the root directory.
 2. Create a `default.json` file in the config folder.
 - Copy the connection string from MongoDB Atlas and paste it into the `default.json` file in the config folder.
-- Change the password to the password you created for the database.
-- Change the database name to the name of the database you created.
 
 ![](https://i.imgur.com/gHrWhzX.jpg)
+
+- Change the password to the password you created for the database.
+- Change the database name to the name of the database you created.
