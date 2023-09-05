@@ -64,3 +64,10 @@ and add:
 
 Then go to Postman and run a GET http://localhost:5000 and SEND.
 You should get the following: `API Running`
+
+# Connect to Database
+1. Create a `config` folder in the root directory.
+2. Create a `default.json` file in the config folder.
+- Copy the connection string from MongoDB Atlas and paste it into the `default.json` file in the config folder.
+- Change the password to the password you created for the database.
+![](http://https://new.express.adobe.com/published/urn:aaid:sc:US:c7df3eee-1d0c-4c71-9542-9bbeab40f7c8)
