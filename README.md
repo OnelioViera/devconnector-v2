@@ -72,4 +72,4 @@ You should get the following: `API Running`
 - Change the password to the password you created for the database.
 - Change the database name to the name of the database you created.
 
-[Imgur](https://i.imgur.com/gHrWhzX.jpg)
+![](https://i.imgur.com/gHrWhzX.jpg)
