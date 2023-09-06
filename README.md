@@ -95,23 +95,23 @@ You should get the following: `API Running`
 
 ### Creat Routes
 1. Create a _routes_ folder in the root directory. Within the _routes_ folder create an _api_ folder and add the following routes:
-- auth.js
-- posts.js
-- profile.js
-- users.js
+- `auth.js`
+- `posts.js`
+- `profile.js`
+- `users.js`
   
 The code within them will be used for testing purposes. 
 2. Within each _routes_ file add the following:
-  - auth.js
+  - `auth.js``
     
   ![](https://i.imgur.com/Bj3tQIe.png)
-  - posts.js
+  - `posts.js``
     
   ![](https://i.imgur.com/2pRlUSo.png)
-  - profile.js
+  - `profile.js``
 
  ![](https://i.imgur.com/YWA6odq.png)
-  - users.js
+  - `users.js``
     
  ![](https://i.imgur.com/vJds4OW.png)
 
