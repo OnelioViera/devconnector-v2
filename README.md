@@ -121,7 +121,7 @@ The code within them will be used for testing purposes.
   - posts.js
     
   ![](https://i.imgur.com/2pRlUSo.png)
-  - porfile.js
+  - profile.js
 
  ![](https://i.imgur.com/YWA6odq.png)
   - users.js
