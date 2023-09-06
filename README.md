@@ -25,20 +25,6 @@
 - `nodemon` watches the server for any changes and automatically makes changes.
 - `concurrently` will allow the backend Express server and frontend React dev server at the same time.
 
-### Make the following file, `server.js`, in the root directory.
-
-- This is the content of the server.js file
-
-    const express = require('express'); _// Bring in Express_
-
-    const app = express(); _// Entialize app varialble with express_
-
-    app.get('/', (req, res) => res.send('API Running')); _// End point for testing_
-
-    const PORT = process.env.PORT || 5000; _// App varialble listining on a PORT_
-
-    app.listen(PORT, () => console.log(`Server started on port ${PORT}`)); _// PORT varialbe_
-
 ### Create Main Entry File in the root directory:
 - `server.js` Add the following code to the file.
 
