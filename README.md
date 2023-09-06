@@ -119,5 +119,5 @@ The code within them will be used for testing purposes.
  - Create a `User.js` file with a capital 'U' in the `models` folder.
  - Within the `User.js` file create a schema for the resources this file will have.
    
- ![](https://i.imgur.com/RbQf2K4.png)
+ ![](https://i.imgur.com/bpPbiLQ.png)
   
