@@ -113,3 +113,18 @@ You should get the following: `API Running`
 - posts.js
 - profile.js
 - users.js
+The code within them will be used for testing purposes. 
+2. Within each _routes_ file add the following:
+  - auth.js
+    
+  ![](https://i.imgur.com/Bj3tQIe.png)
+  - posts.js
+    
+  ![](https://i.imgur.com/2pRlUSo.png)
+  - porfile.js
+
+ ![](https://i.imgur.com/YWA6odq.png)
+  - users.js
+    
+ ![](https://i.imgur.com/vJds4OW.png)
+  
