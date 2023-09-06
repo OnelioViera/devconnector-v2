@@ -114,4 +114,7 @@ The code within them will be used for testing purposes.
   - users.js
     
  ![](https://i.imgur.com/vJds4OW.png)
+
+ ### Create a `models` folder in the root directory.
+ - Create a `User.js` file with a capital 'U' in the `models` folder.
   
