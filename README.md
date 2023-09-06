@@ -99,6 +99,7 @@ You should get the following: `API Running`
 - posts.js
 - profile.js
 - users.js
+  
 The code within them will be used for testing purposes. 
 2. Within each _routes_ file add the following:
   - auth.js
