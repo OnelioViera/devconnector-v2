@@ -116,8 +116,8 @@ The code within them will be used for testing purposes.
  ![](https://i.imgur.com/vJds4OW.png)
 
  ### Create a `models` folder in the root directory.
- - Create a `User.js` file starting with a capital 'U' in the `models` folder.
- - Within the `User.js` file create a schema for the resources this file will have.
+ - Create a `Users.js` file starting with a capital 'U' in the `models` folder.
+ - Within the `Users.js` file create a schema for the resources this file will have.
    
  ![](https://i.imgur.com/bpPbiLQ.png)
   
