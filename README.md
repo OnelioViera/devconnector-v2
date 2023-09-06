@@ -108,7 +108,7 @@ You should get the following: `API Running`
     module.exports = connectDB; _// Export connectDB_
 
 ### Creat Routes
-1. Create a routes folder in the root directory. Within the routes file crate an api folder and add the following routes:
+1. Create a routes folder in the root directory. Within the routes folder create an api folder and add the following routes:
 - auth.js
 - posts.js
 - profile.js
