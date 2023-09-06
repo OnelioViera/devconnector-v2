@@ -93,7 +93,7 @@ You should get the following: `API Running`
 
     module.exports = connectDB; _// Export connectDB_
 
-### Creat Routes
+### Create Routes
 1. Create a _routes_ folder in the root directory. Within the _routes_ folder create an _api_ folder and add the following routes:
 - `auth.js`
 - `posts.js`
