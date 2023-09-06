@@ -22,8 +22,8 @@
 
 ### Install nodemon and concurrently
 1. `npm i -D nodemon concurrently`
-- `nodemon` watches the server for any changes and automatically makes changes.
-- `concurrently` will allow the backend Express server and frontend React dev server at the same time.
+- `nodemon` watches the server for any changes and will automatically makes changes.
+- `concurrently` will allow the backend Express server and frontend React dev server to update at the same time.
 
 ### Create Main Entry File in the root directory:
 - `server.js` Add the following code to the file.
