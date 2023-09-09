@@ -23,7 +23,7 @@ const UserSchema = new mongoose.Schema({
     avatar:{
         type: String
     },
-    // Date the user was created, a date field with the value set to the current date
+    // Date the user was created, a date field with the value 
     date:{
         type: Date,
         default: Date.now
@@ -31,4 +31,4 @@ const UserSchema = new mongoose.Schema({
 });
 
 // Export the user schema as a model
-model.exports = User = mongoose.model('user', UserSchema);
+module.exports = User = mongoose.model('user', UserSchema);

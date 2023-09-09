@@ -1,5 +1,5 @@
 {
   // MongoDB connect URI used for connecting to the database
-  "mongoURI": "mongodb+srv://ojvwebdesign:Daniel2023@devconnector-v2.hefxiwd.mongodb.net/?retryWrites=true&w=majority"
-  
+  "mongoURI": "mongodb+srv://ojvwebdesign:Daniel2023@devconnector-v2.hefxiwd.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
