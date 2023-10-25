@@ -27,16 +27,13 @@
 
 ### Create Main Entry File in the root directory:
 - `server.js` Add the following code to the file.
-
-    _const express = require('express');_
-
-    _const app = express();_
-
-    _app.get('/', (req, res) => res.send('API Running'));_
-
-    _const PORT = process.env.PORT || 5000;_
-
-    _app.listen(PORT, () => console.log(`Server started on port ${PORT}`));_
+```js
+    const express = require('express');
+    const app = express();
+    app.get('/', (req, res) => res.send('API Running'));
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+```
 
 ### Modify package.json scripts
 1. Re-palace `"test": \"Error: no test specified\" && exit 1` with:
@@ -63,36 +60,23 @@ You should get the following: `API Running`
 ### Create a `db.js` file in the config folder.
 - Add the following code to the `db.js` file.
 
+```js
     const mongoose = require('mongoose'); _// Bring in mongoose_
-
     const config = require('config'); _// Bring in config_
-
     const db = config.get('mongoURI'); _// Bring in mongoURI from default.json_
-
     const connectDB = async () => { _// Create a variable to connect to the database_
-
     try { _// Try to connect to the database_
-
     await mongoose.connect(db, { _// Use mongoose to connect to the database_
-
     useNewUrlParser: true, _// Use the new URL parser_
-
     }); _// End of await mongoose.connect_
-
     console.log('MongoDB Connected...'); _// If connected, console log_
-
     } catch(err) { _// If not connected, console log the error_
-
     console.error(err.message); _// Console log the error message_
-
     process.exit(1); _// Exit process with failure_
-
     } _// End of try catch_
-
     } _// End of connectDB_
-
     module.exports = connectDB; _// Export connectDB_
-
+```
 ### Create Routes
 1. Create a _routes_ folder in the root directory. Within the _routes_ folder create an _api_ folder and add the following routes:
 - `auth.js`

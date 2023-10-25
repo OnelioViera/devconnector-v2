@@ -23,7 +23,7 @@ app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 
 // Define the port to run the server on
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000;
 
 // Start the server andd listen on the specified port
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
